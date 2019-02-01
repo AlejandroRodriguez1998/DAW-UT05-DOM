@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* Autor:
+ * Fecha:
+ * Módulo: DIW
+ */
+
+body{
+    padding-top: 5px;
+}
+
+header {
+    padding-bottom: 6px;
+}
+
+header, footer, body {
+    background-color: #1C2833;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#nombrePag {
+    display: inline;
+    margin-top: 25px;
+    color: white;
+}
+
+#columnaContenido {
+    margin-top: 26px;
+}
+
+#tarjetasZona > div{
+    margin-top: 15px;
+}
+
+.ocultar {
+    display: none;
+}
+
+#volverAtras {
+    margin-left: 18px;
+    background-color: #1C2833;
+    border-color:#1C2833;
+}
+
+#actorDirector {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}

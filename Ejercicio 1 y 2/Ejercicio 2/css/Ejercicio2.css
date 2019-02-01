@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+nav {
+    display: table;
+    width: 100%;
+    font-family: arial;
+}
+
+ul {
+    display: table-row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey
+}
+
+li {
+    display: table-cell;
+    width: 25%;
+    float: left;
+    list-style-type: none; 
+    position: relative; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(60, 98, 124);
+}
+
+.activo {
+    background-color: rgb(0, 0, 0);
+}
+
+#subseccion1, #subseccion2, #subseccion3, #subseccion4 {
+    position: absolute; 
+    top: 100%; 
+    left: 0px;  
+    display: none; 
+    width: 100%;
+    background-color: grey;
+}
+
+div p a:hover {
+    background-color: rgb(60, 98, 124);
+}
+			 	
